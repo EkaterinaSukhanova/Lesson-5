@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:700');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1920px;
+    margin: 0 auto;
+
+}
+.clearfix{
+    clear: both;
+}
+header{
+    padding-left: 376px;
+    padding-right: 374px;
+    padding-top: 40px;
+}
+.logo{
+    float: left;
+    margin-right: 215px;
+}
+.navigation{
+    float: left;
+    margin-right: 48px;
+}
+.navigation li{
+    list-style-type: none;
+    display: inline-block;
+    height: 30px;
+    margin-right: 15px;
+}
+.navigation li a{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 28px;
+    text-decoration: none;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.navigation li a:hover{
+    color:  #c7b29a;
+}
+
+.icon{
+    float: left;
+}
+.icon li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 28px;
+}
+
+
+.slider{
+    height: 1024px;
+    width: 100%;
+    background: url("img/photo.jpg") no-repeat bottom;
+    background-size: cover;
+    margin-top: -100px;
+}
+
+
+.navigation-main{
+    padding: 80px 376px 80px 378px;
+}
+.navigation-main li{
+    width: 266px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 3px solid #f1eee9;
+
+}
+.navigation-main a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+
+}
+.navigation-main a p{
+    font-family: Montserrat, sans-serif;
+    color:  #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.navigation-main a .caption{
+    font-family: Raleway, sans-serif;
+    color:  #555555;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 29px;
+    margin-bottom: 19px;
+}
+.navigation-main a:hover .caption{
+    font-family: Raleway, sans-serif;
+    color:  #c7b299;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.navigation-main li:hover{
+    border-bottom: 3px solid #c7b299;
+}
+li.selected-nav-main {
+    border-bottom: 3px solid #c7b299;
+}
+li.selected-nav-main .caption{
+    color:  #c7b299;
+}
+
+.waxom-realization{
+    height: 600px;
+    background-color:  #fbfaf8;
+    text-align: center;
+    padding: 83px 583px 0 580px;
+    position: relative;
+    z-index: -2;
+
+}
+.waxom-realization .caption-section{
+    font-family: Raleway, sans-serif;;
+    color:  #555555;
+    font-size: 30px;
+    font-weight: 600;
+}
+.waxom-realization p {
+    font-family: Montserrat, sans-serif;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.waxom-realization .left-image{
+    position: absolute;
+    left: 346px;
+    top: 300px;
+    z-index: -1;
+}
+.waxom-realization .right-image{
+    position: absolute;
+    left: 806px;
+    top: 300px;
+    z-index: -1;
+}
+
+.wordpress{
+    background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+    height: 150px;
+}
+
+
+
+
+
+
+
