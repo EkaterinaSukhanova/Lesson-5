@@ -126,19 +126,21 @@ li.selected-nav-main .caption{
     z-index: -2;
 
 }
-.waxom-realization .caption-section{
+.caption-section{
     font-family: Raleway, sans-serif;;
     color:  #555555;
     font-size: 30px;
     font-weight: 600;
+    margin-bottom: 24px;
 }
-.waxom-realization p {
+.waxom-realization .caption-declaration,
+.latest-projects .caption-declaration{
     font-family: Montserrat, sans-serif;
     color: #8c8c8c;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
-    text-align: center;
+
     margin-bottom: 40px;
 }
 
@@ -155,6 +157,7 @@ li.selected-nav-main .caption{
     z-index: -1;
 }
 
+
 .wordpress{
     background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
     background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
@@ -164,7 +167,91 @@ li.selected-nav-main .caption{
     height: 150px;
 }
 
+.latest-projects{
+    text-align: center;
+}
+.latest-projects .head{
+    padding: 83px 583px 0 580px;
+}
 
+.latest-nav li{
+    list-style-type: none;
+    display: inline-block;
+
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #ebebeb;
+    box-sizing: border-box;
+    background-color:  rgba(17, 17, 17, 0);
+    width: 135px;
+    height: 32px;
+
+    margin-bottom: 48px;
+}
+.latest-nav li a{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 28px;
+    text-decoration: none;
+    color:  #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.latest-nav li a:hover {
+    border-radius: 3px;
+    background-color:  #998675;
+    color:  #ffffff;
+}
+
+.latest-gallery{
+    column-count: 3;
+    padding-left: 376px;
+    padding-right: 374px;
+}
+.latest-gallery a{
+    display: inline-block;
+    background-color:  #fbfaf8;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.latest-gallery .gall-img-text{
+    text-align: left;
+    padding: 30px 0 27px 28px;
+
+}
+.latest-gallery .gall-img-caption{
+    font-family: Raleway, sans-serif;
+    color:  #c7b29a;
+    font-size: 20px;
+    font-weight: 500;
+}
+.latest-gallery .gall-img-declaration{
+    font-family: Montserrat, sans-serif;
+    color:  #d1d1d1;
+    font-size: 14px;
+    font-weight: 300;
+}
+.latest-gallery a:hover{
+    background-color:  #362f2d;
+}
+.latest-gallery a:hover .gall-img-caption {
+    color:  #ffffff;
+}
+.latest-gallery a:hover .gall-img-declaration{
+    color:  #c7b299;
+}
+
+.latest-gallery img{
+    transform-origin: top;
+}
+.latest-gallery img:hover{
+    transform: scaleY(1.43);
+}
 
 
 
