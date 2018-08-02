@@ -62,7 +62,76 @@ header{
     background: url("img/photo.jpg") no-repeat bottom;
     background-size: cover;
     margin-top: -100px;
+    position: relative;
+    z-index: -2;
 }
+.slider-text{
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    color:  #ffffff;
+}
+
+.slider-pre-caption{
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+.slider-caption{
+    font-family: Raleway, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+}
+.slider-description{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+.arrow-left, .arrow-right{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+
+}
+.arrow-left{
+    left: 20px;
+}
+.arrow-right{
+    right: 20px;
+}
+
+
+/*.arrow-right:hover{*/
+    /*transform: scale(2);*/
+/*}*/
+
+
+
+.slider-points{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slider-points li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #f1eee9;
+}
+.wrap{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
 
 .navigation-main{
@@ -124,7 +193,6 @@ li.selected-nav-main .caption{
     padding: 83px 583px 0 580px;
     position: relative;
     z-index: -2;
-
 }
 .caption-section{
     font-family: Raleway, sans-serif;;
@@ -144,6 +212,8 @@ li.selected-nav-main .caption{
     margin-bottom: 40px;
 }
 
+
+
 .waxom-realization .left-image{
     position: absolute;
     left: 346px;
@@ -156,6 +226,16 @@ li.selected-nav-main .caption{
     top: 300px;
     z-index: -1;
 }
+
+
+/*.center-image img{*/
+    /*transform-origin: top;*/
+    /*transition: transform 1s;*/
+/*}*/
+/*.center-image img:hover{*/
+    /*transform: scale(2);*/
+/*}*/
+
 
 
 .wordpress{
@@ -248,9 +328,10 @@ li.selected-nav-main .caption{
 
 .latest-gallery img{
     transform-origin: top;
+    transition: transform 1s;
 }
 .latest-gallery img:hover{
-    transform: scaleY(1.43);
+    transform: scaleY(1.5) rotate(30deg);
 }
 
 
